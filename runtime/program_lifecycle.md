@@ -67,7 +67,7 @@ globalThis.onunload = (e: Event): void => {
 console.log("log from imported script");
 ```
 
-A couple notes on this example:
+A couple of notes on this example:
 
 - `addEventListener` and `onload`/`onunload` are prefixed with `globalThis`, but
   you could also use `self` or no prefix at all.
